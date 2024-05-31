@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title="Biomedical Translation Task - WMT 24", layout="wide")
+st.set_page_config(page_title="Biomedical Translation Task - WMT 24", layout="centered")
 
 # Improved Model Descriptions
 model_descriptions = """
