@@ -2,6 +2,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+st.set_page_config(page_title="Biomedical Translation Task - WMT 24", layout="centered")
+
+
 # Define the data for each model
 data = {
     "Model": ["Mistral Base", "Mistral Base", "Mistral Base", "Mistral B", "Mistral C", "Mistral Multilingual E", "Mistral Multilingual E", "Mistral Multilingual E"],
