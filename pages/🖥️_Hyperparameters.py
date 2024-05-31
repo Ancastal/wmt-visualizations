@@ -1,6 +1,9 @@
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(page_title="Biomedical Translation Task - WMT 24", layout="centered")
+
+
 # Hyperparameters for each model
 hyperparameters = {
     "Model": ["Model A", "Model B", "Model C"],
